@@ -1,0 +1,108 @@
+@CHARSET "UTF-8";
+
+/*    
+h1 {
+	color: green;
+}
+*/
+
+
+/* 1em = 10px
+body {
+  font-size: 62.5% 
+}
+*/
+
+
+/* regla css general  2-30*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* reglas para titulos 2-31 */
+h1 {
+  font: bold 20px verdana, sans-serif;
+}
+h2 {
+  font: bold 14px verdana, sans-serif;
+}
+
+/* 2-32 - Definiendo los elementos estructurales 
+de HTML5 como elementos bloque */
+header, section, footer, aside, nav, article, figure, 
+figcaption, hgroup{
+  display: block;
+}
+
+/*2-33 - Centrando el cuerpo*/
+body {
+  text-align: center;
+}
+
+/*  2-34 - Definiendo las propiedades de la caja principal*/
+#envoltura {
+  width: 960px;
+  margin: 15px auto;
+  text-align: left;
+}
+
+/*  2-35 - Agregando estilos para <header> */
+#cabecera {
+  background: #FFFBB9;
+  border: 1px solid #999999;
+  padding: 20px;
+}
+
+/*   2-36 - Agregando estilos para <nav> */
+#menu {
+  background: #CCCCCC;
+  padding: 5px 15px;
+}
+#menu li {
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  font: bold 14px verdana, sans-serif;
+}
+
+/*   2-37 - Creando dos columnas con la propiedad float */
+#seccion {
+  float: left;
+  width: 660px;
+  margin: 20px;
+}
+#lateral {
+  float: left;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 20px;
+  background: #CCCCCC;
+}
+
+/*   2-38 - Asignando estilos a <footer> y 
+recuperando el flujo normal del documento */
+#pie {
+  clear: both;
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid #999999;
+}
+
+/*   2-39 - Agregando los toques finales para el diseño básico */
+article {
+  background: #FFFBCC;
+  border: 1px solid #999999;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+article footer {
+  text-align: right;
+}
+time {
+  color: #999999;
+}
+figcaption {
+  font: italic 14px verdana, sans-serif;
+}
+
